@@ -12,9 +12,25 @@ Grade Calculator
 Input number of courses:
 xyz
 Invalid input. Please enter an integer.
+Input number of courses:
 2
 Is your course a 5.0 course? Pre-AP or AP classes are generally 5.0: (Y or N, default N, case insensitive)
 y
 Input your grade:
+abc
+Invalid input. Please input an integer.
+Input your grade:
+97
+Is your course a 5.0 course? Pre-AP or AP classes are generally 5.0: (Y or N, default N, case insensitive)
 
+Input your grade:
+98
+```
+Expected output:
+```text
+Your GPA is 4.5
+```
+Actual output:
+```text
+Your GPA is 4.5
 ```
